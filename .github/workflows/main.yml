@@ -1,0 +1,17 @@
+name: Simple Cl
+
+
+
+on: push
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      -name:Print Message
+       run: echo "Cl pipeline
+running"
+    
